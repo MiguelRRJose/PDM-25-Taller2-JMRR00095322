@@ -10,7 +10,7 @@ val sampleRestaurants = listOf(
         name = "Taco Fiesta",
         description = "Deliciosos tacos mexicanos con recetas tradicionales.",
         imageResId = R.drawable.taco,
-        categories = listOf("Comida Mexicana", "Comida Rápida"),
+        categories = listOf("Comida Mexicana"),
         menu = listOf(
             MenuItem(1, "Taco al Pastor", "Tortilla suave con carne de cerdo marinada al estilo pastor.", R.drawable.taco),
             MenuItem(2, "Quesadilla", "Tortilla rellena de queso fundido, servida caliente.", R.drawable.taco)
@@ -67,5 +67,19 @@ val sampleRestaurants = listOf(
         menu = listOf(
             MenuItem(9, "Limonada", "Limonada natural con hierbabuena, servida con hielo.", R.drawable.taco)
         )
+    ),
+
+    Restaurant(
+        id = 7,
+        name = "Burger Rush",
+        description = "Las hamburguesas más rápidas y sabrosas de la ciudad.",
+        imageResId = R.drawable.taco,
+        categories = listOf("Comida Rápida"),
+        menu = listOf(
+            MenuItem(10, "Hamburguesa Clásica", "Carne jugosa, queso, lechuga y tomate en pan suave.", R.drawable.taco),
+            MenuItem(11, "Papas Fritas", "Papas doradas, crujientes por fuera y suaves por dentro.", R.drawable.taco),
+            MenuItem(12, "Combo Doble", "Doble hamburguesa + papas + bebida.", R.drawable.taco)
     )
+)
+
 )
