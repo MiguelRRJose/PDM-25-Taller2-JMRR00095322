@@ -35,9 +35,13 @@ val sampleRestaurants = listOf(
         categories = listOf("Comida Asiática", "Comida Saludable"),
         menu = listOf(
             MenuItem(5, "Sushi Roll", "Rollos de arroz rellenos de pescado fresco y vegetales.", R.drawable.su),
-            MenuItem(6, "Ramen", "Sopa japonesa con fideos, caldo intenso y toppings variados.", R.drawable.ramen)
-            
-        )
+            MenuItem(6, "Ramen", "Sopa japonesa con fideos, caldo intenso y toppings variados.", R.drawable.ramen),
+            MenuItem(7, "Sushi Pollo", "Rollos de arroz rellenos de pescado fresco y vegetales.", R.drawable.su),
+            MenuItem(8, "Sushi Platano", "Rollos de arroz rellenos de pescado fresco y vegetales.", R.drawable.su),
+
+
+
+            )
     ),
     Restaurant(
         id = 4,
