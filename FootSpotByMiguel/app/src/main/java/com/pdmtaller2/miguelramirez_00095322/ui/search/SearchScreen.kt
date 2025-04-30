@@ -1,0 +1,10 @@
+package com.pdmtaller2.miguelramirez_00095322.ui.search
+
+
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+
+@Composable
+fun SearchScreen() {
+    Text("Pantalla de búsqueda")
+}
