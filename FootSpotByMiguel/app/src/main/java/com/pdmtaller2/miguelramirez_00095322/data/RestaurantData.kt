@@ -20,7 +20,7 @@ val sampleRestaurants = listOf(
         id = 2,
         name = "Pizza Bella",
         description = "Auténticos sabores italianos con un toque artesanal.",
-        imageResId = R.drawable.taco,
+        imageResId = R.drawable.italiana,
         categories = listOf("Comida Italiana"),
         menu = listOf(
             MenuItem(3, "Pizza Margarita", "Pizza clásica con salsa de tomate, queso mozzarella y albahaca fresca.", R.drawable.taco),
@@ -31,7 +31,7 @@ val sampleRestaurants = listOf(
         id = 3,
         name = "Bento Box",
         description = "Sabores japoneses frescos y balanceados para el día a día.",
-        imageResId = R.drawable.taco,
+        imageResId = R.drawable.asiatica,
         categories = listOf("Comida Asiática", "Comida Saludable"),
         menu = listOf(
             MenuItem(5, "Sushi Roll", "Rollos de arroz rellenos de pescado fresco y vegetales.", R.drawable.taco),
@@ -42,7 +42,7 @@ val sampleRestaurants = listOf(
         id = 4,
         name = "Salud y Sabor",
         description = "Comidas saludables sin perder el sabor.",
-        imageResId = R.drawable.taco,
+        imageResId = R.drawable.saludable,
         categories = listOf("Comida Saludable"),
         menu = listOf(
             MenuItem(7, "Ensalada Verde", "Mezcla de hojas verdes, aguacate y semillas con aderezo natural.", R.drawable.taco)
@@ -52,7 +52,7 @@ val sampleRestaurants = listOf(
         id = 5,
         name = "Dulce Final",
         description = "Postres irresistibles para cerrar con broche de oro.",
-        imageResId = R.drawable.taco,
+        imageResId = R.drawable.dulce,
         categories = listOf("Postres y Dulces"),
         menu = listOf(
             MenuItem(8, "Cheesecake", "Tarta de queso cremosa sobre base crocante, decorada con frutas.", R.drawable.taco)
@@ -62,7 +62,7 @@ val sampleRestaurants = listOf(
         id = 6,
         name = "Refrescos Ya!",
         description = "Bebidas frías para refrescar tu día.",
-        imageResId = R.drawable.taco,
+        imageResId = R.drawable.bebidas,
         categories = listOf("Bebidas"),
         menu = listOf(
             MenuItem(9, "Limonada", "Limonada natural con hierbabuena, servida con hielo.", R.drawable.taco)
@@ -73,7 +73,7 @@ val sampleRestaurants = listOf(
         id = 7,
         name = "Burger Rush",
         description = "Las hamburguesas más rápidas y sabrosas de la ciudad.",
-        imageResId = R.drawable.taco,
+        imageResId = R.drawable.rapido,
         categories = listOf("Comida Rápida"),
         menu = listOf(
             MenuItem(10, "Hamburguesa Clásica", "Carne jugosa, queso, lechuga y tomate en pan suave.", R.drawable.taco),
