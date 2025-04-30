@@ -34,8 +34,9 @@ val sampleRestaurants = listOf(
         imageResId = R.drawable.asiatica,
         categories = listOf("Comida Asiática", "Comida Saludable"),
         menu = listOf(
-            MenuItem(5, "Sushi Roll", "Rollos de arroz rellenos de pescado fresco y vegetales.", R.drawable.taco),
-            MenuItem(6, "Ramen", "Sopa japonesa con fideos, caldo intenso y toppings variados.", R.drawable.taco)
+            MenuItem(5, "Sushi Roll", "Rollos de arroz rellenos de pescado fresco y vegetales.", R.drawable.su),
+            MenuItem(6, "Ramen", "Sopa japonesa con fideos, caldo intenso y toppings variados.", R.drawable.ramen)
+            
         )
     ),
     Restaurant(
@@ -45,7 +46,7 @@ val sampleRestaurants = listOf(
         imageResId = R.drawable.saludable,
         categories = listOf("Comida Saludable"),
         menu = listOf(
-            MenuItem(7, "Ensalada Verde", "Mezcla de hojas verdes, aguacate y semillas con aderezo natural.", R.drawable.taco)
+            MenuItem(7, "Ensalada Verde", "Mezcla de hojas verdes, aguacate y semillas con aderezo natural.", R.drawable.verde)
         )
     ),
     Restaurant(
@@ -55,7 +56,7 @@ val sampleRestaurants = listOf(
         imageResId = R.drawable.dulce,
         categories = listOf("Postres y Dulces"),
         menu = listOf(
-            MenuItem(8, "Cheesecake", "Tarta de queso cremosa sobre base crocante, decorada con frutas.", R.drawable.taco)
+            MenuItem(8, "Cheesecake", "Tarta de queso cremosa sobre base crocante, decorada con frutas.", R.drawable.ches)
         )
     ),
     Restaurant(
@@ -65,7 +66,7 @@ val sampleRestaurants = listOf(
         imageResId = R.drawable.bebidas,
         categories = listOf("Bebidas"),
         menu = listOf(
-            MenuItem(9, "Limonada", "Limonada natural con hierbabuena, servida con hielo.", R.drawable.taco)
+            MenuItem(9, "Limonada", "Limonada natural con hierbabuena, servida con hielo.", R.drawable.limonada)
         )
     ),
 
@@ -76,9 +77,9 @@ val sampleRestaurants = listOf(
         imageResId = R.drawable.rapido,
         categories = listOf("Comida Rápida"),
         menu = listOf(
-            MenuItem(10, "Hamburguesa Clásica", "Carne jugosa, queso, lechuga y tomate en pan suave.", R.drawable.taco),
-            MenuItem(11, "Papas Fritas", "Papas doradas, crujientes por fuera y suaves por dentro.", R.drawable.taco),
-            MenuItem(12, "Combo Doble", "Doble hamburguesa + papas + bebida.", R.drawable.taco)
+            MenuItem(10, "Hamburguesa Clásica", "Carne jugosa, queso, lechuga y tomate en pan suave.", R.drawable.hamburguesaclasic),
+            MenuItem(11, "Papas Fritas", "Papas doradas, crujientes por fuera y suaves por dentro.", R.drawable.papas),
+            MenuItem(12, "Combo Doble", "Doble hamburguesa + papas + bebida.", R.drawable.combo)
     )
 )
 
