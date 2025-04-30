@@ -7,7 +7,6 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -39,14 +38,31 @@ fun MenuScreen(restaurantId: Int?, navController: NavController) {
                 title = { Text(restaurant?.name ?: "Menú") },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Volver")
-
+                        Icon(
+                            Icons.AutoMirrored.Filled.ArrowBack,
+                            contentDescription = "Volver"
+                        )
                     }
                 }
             )
         }
     ) { padding ->
-        Column(modifier = Modifier.padding(padding)) {
+        Column(modifier = Modifier
+            .padding(padding)
+            .fillMaxSize()) {
+
+            restaurant?.let {
+                Text(
+                    text = it.name,
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                )
+                Text(
+                    text = it.description,
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
+                )
+            }
 
             OutlinedTextField(
                 value = searchText,
@@ -61,7 +77,11 @@ fun MenuScreen(restaurantId: Int?, navController: NavController) {
                 items(filteredMenu) { dish ->
                     DishItem(dish = dish) {
                         Toast
-                            .makeText(context, "${dish.name} agregado al carrito", Toast.LENGTH_SHORT)
+                            .makeText(
+                                context,
+                                "${dish.name} agregado al carrito",
+                                Toast.LENGTH_SHORT
+                            )
                             .show()
                     }
                 }
